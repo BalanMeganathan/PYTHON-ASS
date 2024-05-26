@@ -1,0 +1,3 @@
+django-admin startproject webhook_project
+cd webhook_project
+django-admin startapp webhook_app
