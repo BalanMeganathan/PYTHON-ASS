@@ -16,6 +16,7 @@ class Destination(models.Model):
     url = models.URLField()
     http_method = models.CharField(max_length=10, choices=[('GET', 'GET'), ('POST', 'POST'), ('PUT', 'PUT')])
     headers = models.JSONField()
+    print("balan")
 
     def __str__(self):
         return self.url
